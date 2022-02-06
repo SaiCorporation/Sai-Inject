@@ -1,0 +1,100 @@
+{
+  "localization": "English",
+  "roundedCorners": 10,
+  "dateFormat": "MM/DD/YYYY",
+  "hideLabels": true,
+  "customColors": [
+    {
+      "template": "outlet",
+      "bgColor": "",
+      "iconColor": "rgb(0,245,245)",
+      "customIcon": "he-plug_5",
+      "state": "on"
+    },
+    {
+      "template": "outlet",
+      "bgColor": "",
+      "iconColor": "rgb(0,245,121)",
+      "state": "off"
+    },
+    {
+      "template": "bulb",
+      "bgColor": "",
+      "iconColor": "rgb(0,245,255)",
+      "state": "on"
+    },
+    {
+      "template": "bulb",
+      "bgColor": "",
+      "iconColor": "rgb(0,245,121)",
+      "state": "off"
+    },
+    {
+      "template": "switches",
+      "bgColor": "",
+      "iconColor": "rgb(39,225,121)",
+      "state": "on",
+      "customIcon": "he-switch_2_off_filled"
+    }
+  ],
+  "colWidth": 200,
+  "cloudRefresh": 5,
+  "hsmPin": "",
+  "hide3dot": false,
+  "gridGap": 10,
+  "clockMode": true,
+  "tiles": [
+    {
+      "rowSpan": 1,
+      "template": "switches",
+      "col": 1,
+      "colSpan": 1,
+      "id": 0,
+      "row": 1
+    },
+    {
+      "rowSpan": 1,
+      "template": "switches",
+      "col": 2,
+      "colSpan": 1,
+      "id": 1,
+      "row": 1,
+      "templateExtra": null
+    },
+    {
+      "rowSpan": 1,
+      "template": "switches",
+      "col": 3,
+      "colSpan": 1,
+      "id": 2,
+      "row": 1,
+      "templateExtra": null
+    },
+    {
+      "rowSpan": 1,
+      "template": "switches",
+      "col": 4,
+      "colSpan": 1,
+      "id": 3,
+      "row": 1,
+      "templateExtra": null
+    }
+  ],
+  "goBack": true,
+  "modePin": "",
+  "bgColor": "#282828",
+  "lanRefresh": 2,
+  "iconSize": 42,
+  "cols": 5,
+  "rowHeight": 190,
+  "hideEvents": false,
+  "tempScale": "F",
+  "noColors": false,
+  "readOnly": null,
+  "rows": 3,
+  "hideIconText": true,
+  "hideTextShadow": true,
+  "name": "Hubitat Dashboard",
+  "fontSize": 12,
+  "background": "https://github.com/SaiCorporation/Sai-Inject/blob/main/themes/Plant-simple/bg_image.jpg?raw=true"
+}
